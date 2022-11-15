@@ -11,3 +11,5 @@ const cartSchema = new Schema({
 });
 // exporto mi modelo, el cual me permite acceder a los metodos de la bd.
 export default model("Cart", cartSchema);
+
+// module.exports= model('cart', cartSchema) 
