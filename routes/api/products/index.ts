@@ -9,7 +9,6 @@ router.post("/newProduct", productsController.newProduct);
 
 router.get("/getAllProducts", productsController.getAllProducts);
 
-router.get("/getProductByID", productsController.getProductByID);
 
 // se exporta el router para poder enlazarlo con las rutas que estan dentro de /api.
 export default router;
